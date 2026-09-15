@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "appId": "f541ab2c-86ad-43e9-a240-6d77fe81a4c2",
+  "appDisplayName": "Product Receipt",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "6dbe05cf-dc0f-e55c-a561-aaf875617cf6",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {},
+  "environment": "6dbe05cf-dc0f-e55c-a561-aaf875617cf6"
+}

@@ -1,0 +1,58 @@
+.store-banner {
+  background: linear-gradient(90deg, #123b3df5, #17585ae8), url('./assets/retail/retail-floor.jpg') center / cover;
+}
+
+.function-home {
+  background: linear-gradient(145deg, #eef6f1ef, #fffdf7f4 58%, #f6ebdae8), url('./assets/retail/apparel-display.jpg') center / cover fixed;
+}
+
+.container-row-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.container-type {
+  display: inline-flex;
+  align-items: center;
+  width: max-content;
+  min-height: 22px;
+  padding: 4px 7px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+}
+
+.container-type-store {
+  color: #17585a;
+  background: #dff0ed;
+}
+
+.container-type-online {
+  color: #79500d;
+  background: #fff0c9;
+}
+
+.detail-block > .container-type {
+  margin-bottom: 18px;
+}
+
+.function-image {
+  width: 82px;
+  height: 82px;
+  flex: 0 0 82px;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 380px) {
+  .function-image {
+    width: 68px;
+    height: 68px;
+    flex-basis: 68px;
+  }
+}
